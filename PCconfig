@@ -1,9 +1,9 @@
 [custom]
-ruleset=REJECT,
-ruleset=🚀 节点选择,
-ruleset=REJECT,
-ruleset=🚀 节点选择
-ruleset=REJECT,
+ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/reject1
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/jiedian_1
+ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/reject2
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/jiedian2
+ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/reject3
 ruleset=PASS,[]FINAL
 custom_proxy_group=🚀 节点选择`select`[]低倍率`[]DIRECT`.*
 custom_proxy_group=低倍率`select`[]DIRECT`.*
