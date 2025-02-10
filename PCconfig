@@ -3,6 +3,7 @@ ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/r
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/jiedian_1
 ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/reject2
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/jiedian2
+ruleset=qbtorrent,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/qb
 ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/reject3
 ruleset=PASS,[]FINAL
 custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
