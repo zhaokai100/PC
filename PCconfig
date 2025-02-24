@@ -1,11 +1,25 @@
 [custom]
+;解决DNS泄露，无分流群组
+ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
 ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/reject1
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/jiedian_1
 ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/reject2
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/jiedian2
 ruleset=REJECT,https://raw.githubusercontent.com/zhaokai100/PC/refs/heads/main/reject3
-ruleset=PASS,[]FINAL
 custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
 custom_proxy_group=qbtorrent`select`[]DIRECT`.*
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=DIRECT,[]GEOIP,CN,no-resolve
+ruleset=PASS,[]FINAL
+
 enable_rule_generator=true
 overwrite_original_rules=true
