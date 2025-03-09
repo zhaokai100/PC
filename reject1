@@ -1,5 +1,4 @@
 NETWORK,udp
 DOMAIN-KEYWORD,micro
 PROCESS-NAME,NvOcScanner.exe
-PROCESS-NAME,LegionZone.exe
 PROCESS-NAME,PotPlayerMini64.exe
