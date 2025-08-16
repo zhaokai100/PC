@@ -1,0 +1,6 @@
+[custom]
+ruleset=PASS,[]FINAL
+custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
+custom_proxy_group=qbtorrent`select`[]DIRECT`.*
+enable_rule_generator=true
+overwrite_original_rules=true
