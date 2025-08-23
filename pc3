@@ -5,6 +5,7 @@ custom_proxy_group=realtime`select`.*
 custom_proxy_group=alt_ip_jap`select`.*
 custom_proxy_group=alt_ip_usa`select`.*
 custom_proxy_group=alt_ip_sig`select`.*
+custom_proxy_group=for_steam`select`.*
 custom_proxy_group=qbtorrent`select`[]DIRECT`.*
 enable_rule_generator=true
 overwrite_original_rules=true
