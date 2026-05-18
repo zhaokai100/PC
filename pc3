@@ -1,11 +1,11 @@
 [custom]
 ruleset=PASS,[]FINAL
-custom_proxy_group=selected`select`.*
-custom_proxy_group=realtime`select`.*
-custom_proxy_group=alt_ip_jap`select`.*
+custom_proxy_group=selected`select`.*V
+custom_proxy_group=realtime`select`.*V
+custom_proxy_group=alt_ip_jap`select`.*V
 custom_proxy_group=for_steam`select`[]low_rate`.*
-custom_proxy_group=ip_usa`select`.*
+custom_proxy_group=ip_usa`select`.*V
 custom_proxy_group=low_rate`select`.*0.1
-custom_proxy_group=qbtorrent`select`[]DIRECT`.*
+custom_proxy_group=qbtorrent`select`[]DIRECT`[]low_rate`.*
 enable_rule_generator=true
 overwrite_original_rules=true
